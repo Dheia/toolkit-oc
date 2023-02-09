@@ -1,5 +1,5 @@
 {
-    "name": "nielsvandendries/planning-plugin",
+    "name": "nielsvandendries/toolkit-plugin",
     "type": "october-plugin",
     "description": "meaningful description...",
     "require": {
