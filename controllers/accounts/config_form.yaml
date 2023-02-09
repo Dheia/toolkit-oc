@@ -1,0 +1,11 @@
+name: Accounts
+modelClass: NielsVanDenDries\Toolkit\Models\Bankaccounts
+form: $/nielsvandendries/toolkit/models/bankaccounts/fields.yaml
+defaultRedirect: nielsvandendries/toolkit/accounts
+create:
+    redirect: 'nielsvandendries/toolkit/accounts/update/:id'
+    redirectClose: nielsvandendries/toolkit/accounts
+update:
+    redirect: nielsvandendries/toolkit/accounts
+    redirectClose: nielsvandendries/toolkit/accounts
+preview: {  }

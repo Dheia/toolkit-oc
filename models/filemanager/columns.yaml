@@ -1,0 +1,35 @@
+columns:
+    id:
+        label: ID
+        type: number
+        invisible: true
+    file_name:
+        label: Bestandsnaam
+        type: text
+        searchable: true
+        sortable: true
+    file_owner:
+        label: Eigenaar
+        type: text
+        invisible: true
+    customer:
+        label: Klant
+        type: text
+        invisible: true
+    created_at:
+        label: 'Gemaakt op'
+        type: datetime
+    updated_at:
+        label: 'Laatste update'
+        type: datetime
+    deleted_at:
+        label: 'Verwijderd op'
+        type: datetime
+    file_description:
+        label: Beschrijving
+        type: text
+        invisible: true
+    file_upload:
+        label: 'Uploaded Files'
+        type: text
+        invisible: true

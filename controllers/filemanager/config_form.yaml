@@ -1,0 +1,11 @@
+name: FileManager
+modelClass: NielsVanDenDries\Toolkit\Models\FileManager
+form: $/nielsvandendries/toolkit/models/filemanager/fields.yaml
+defaultRedirect: nielsvandendries/toolkit/filemanager
+create:
+    redirect: 'nielsvandendries/toolkit/filemanager/update/:id'
+    redirectClose: nielsvandendries/toolkit/filemanager
+update:
+    redirect: nielsvandendries/toolkit/filemanager
+    redirectClose: nielsvandendries/toolkit/filemanager
+preview: {  }

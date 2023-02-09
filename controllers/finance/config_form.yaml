@@ -1,0 +1,11 @@
+name: Finance
+modelClass: NielsVanDenDries\Toolkit\Models\Finance
+form: $/nielsvandendries/toolkit/models/finance/fields.yaml
+defaultRedirect: nielsvandendries/toolkit/finance
+create:
+    redirect: 'nielsvandendries/toolkit/finance/update/:id'
+    redirectClose: nielsvandendries/toolkit/finance
+update:
+    redirect: nielsvandendries/toolkit/finance
+    redirectClose: nielsvandendries/toolkit/finance
+preview: {  }

@@ -1,0 +1,50 @@
+fields:
+    id:
+        label: Id
+        span: full
+        readOnly: 1
+        hidden: 1
+        type: number
+    section2:
+        label: Persoonsgegevens
+        span: full
+        type: section
+    firstname:
+        label: Firstname
+        span: auto
+        required: 1
+        type: text
+    surname:
+        label: Surname
+        span: auto
+        required: 1
+        type: text
+    adres:
+        label: Adres
+        span: auto
+        required: 1
+        type: text
+    zipcode:
+        label: Zipcode
+        span: auto
+        required: 1
+        type: text
+    place:
+        label: Place
+        span: auto
+        required: 1
+        type: text
+    section1:
+        label: Bankgegevens
+        span: full
+        type: section
+    account_number:
+        label: 'Account number'
+        span: auto
+        required: 1
+        type: text
+    bank_name:
+        label: 'Bank name'
+        span: auto
+        required: 1
+        type: text

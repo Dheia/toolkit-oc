@@ -1,0 +1,16 @@
+{
+    "name": "NielsVanDenDries/planning-plugin",
+    "type": "october-plugin",
+    "description": "meaningful description...",
+    "require": {
+        "composer/installers": "~1.0",
+        "php": ">=7.0",
+        "rainlab/builder-plugin": "~1.2.6"
+    },
+    "authors": [
+        {
+            "name": "Niels van den Dries",
+            "email": "niels@nvandendries.nl"
+        }
+    ]
+}

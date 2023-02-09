@@ -1,0 +1,7 @@
+{% set FileManager = __SELF__.fileslist %}
+
+{% for fileslist in FileManager %}
+    {{ fileslist.file_name }}
+    {{ fileslist.customer }}
+    {{ fileslist.file_description|raw }}
+{% endfor %}

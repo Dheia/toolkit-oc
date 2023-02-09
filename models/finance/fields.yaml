@@ -1,0 +1,109 @@
+fields:
+    id:
+        label: Id
+        span: full
+        readOnly: 1
+        hidden: 1
+        type: text
+    created_at:
+        label: 'Aangemaakt op'
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: text
+    updated_at:
+        label: 'Laatste update'
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: text
+    description:
+        label: Omschrijving
+        span: full
+        required: 1
+        type: text
+    withdraw:
+        label: Afschrijving
+        span: auto
+        type: text
+    deposit:
+        label: Bijschrijving
+        span: auto
+        type: text
+    bankaccount:
+        label: 'Op rekening'
+        span: auto
+        showSearch: true
+        options:
+            NL28INGB0672401770: NL28INGB0672401770
+        type: dropdown
+    transfer:
+        label: 'Betaling via'
+        span: auto
+        showSearch: true
+        options:
+            PayPal: PayPal
+            iDeal: iDeal
+            'Bank overschrijving': 'Bank overschrijving'
+            Contant: Contant
+            'Automatische incasso': 'Automatische incasso'
+        type: dropdown
+    tax:
+        label: BTW
+        span: auto
+        required: 1
+        type: text
+    kwartaal:
+        label: Kwartaal
+        span: auto
+        showSearch: true
+        options:
+            Q1: Q1
+            Q2: Q2
+            Q3: Q3
+            Q4: Q4
+        type: dropdown
+    label:
+        label: Tags
+        span: auto
+        mode: string
+        separator: comma
+        customTags: true
+        useKey: false
+        type: taglist
+    invoicenr:
+        label: Factuurnummer
+        span: auto
+        required: 1
+        type: text
+    datum:
+        label: Datum
+        mode: date
+        span: auto
+        required: 1
+        type: datepicker
+    ordernr:
+        label: Ordernummer
+        span: auto
+        type: text
+    info:
+        label: 'Overige informatie'
+        size: large
+        span: full
+        type: richeditor
+    factuur:
+        label: Factuur
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    paid:
+        label: Voldaan
+        span: auto
+        'on': Betaald
+        'off': 'Niet betaald'
+        required: 1
+        type: switch

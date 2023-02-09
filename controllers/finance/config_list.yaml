@@ -1,0 +1,12 @@
+title: Finance
+modelClass: NielsVanDenDries\Toolkit\Models\Finance
+list: $/nielsvandendries/toolkit/models/finance/columns.yaml
+recordUrl: 'nielsvandendries/toolkit/finance/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

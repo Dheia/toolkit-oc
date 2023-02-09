@@ -1,0 +1,54 @@
+fields:
+    file_upload:
+        label: 'File upload'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: right
+        type: fileupload
+    file_name:
+        label: Bestandsnaam
+        span: left
+        type: text
+    file_owner:
+        label: Eigenaar
+        span: left
+        type: text
+    customer:
+        label: Klant
+        span: left
+        type: text
+    file_description:
+        label: Omschrijving
+        size: small
+        span: full
+        type: richeditor
+    created_at:
+        label: 'Created at'
+        mode: datetime
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: datepicker
+    updated_at:
+        label: 'Updated at'
+        mode: datetime
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: datepicker
+    deleted_at:
+        label: 'Deleted at'
+        mode: datetime
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: datepicker
+    id:
+        label: Id
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: number

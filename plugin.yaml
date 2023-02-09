@@ -1,0 +1,36 @@
+plugin:
+    name: 'nielsvandendries.toolkit::lang.plugin.name'
+    description: 'nielsvandendries.toolkit::lang.plugin.description'
+    author: 'Niels van den Dries'
+    icon: oc-icon-gears
+    homepage: 'https://nvandendries.nl'
+permissions:
+    beheerder:
+        tab: beheerder
+        label: beheerder
+navigation:
+    main-menu-item:
+        label: 'NvandenDries Toolkit'
+        url: /
+        icon: icon-gears
+        permissions:
+            - beheerder
+        sideMenu:
+            side-menu-item:
+                label: Finance
+                url: nielsvandendries/toolkit/finance
+                icon: icon-euro
+                permissions:
+                    - beheerder
+            side-menu-item2:
+                label: Accounts
+                url: nielsvandendries/toolkit/accounts
+                icon: icon-bank
+                permissions:
+                    - beheerder
+            side-menu-item3:
+                label: 'File Manager'
+                url: nielsvandendries/toolkit/filemanager
+                icon: icon-files-o
+                permissions:
+                    - beheerder

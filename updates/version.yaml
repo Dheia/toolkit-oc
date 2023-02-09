@@ -1,0 +1,80 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table nielsvandendries_toolkit_finance'
+    - builder_table_create_nielsvandendries_toolkit_finance.php
+1.0.3:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance.php
+1.0.4:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_2.php
+1.0.5:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_3.php
+1.0.6:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_4.php
+1.0.7:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_5.php
+1.0.8:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_6.php
+1.0.9:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_7.php
+1.0.10:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_8.php
+1.0.11:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_9.php
+1.0.12:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_10.php
+1.0.13:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_11.php
+1.0.14:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_12.php
+1.0.15:
+    - 'Created table nielsvandendries_toolkit_accounts'
+    - builder_table_create_nielsvandendries_toolkit_accounts.php
+1.0.16:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_13.php
+1.0.17:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_14.php
+1.0.18:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_15.php
+1.0.19:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_16.php
+1.0.20:
+    - 'Created table nielsvandendries_toolkit_facturen'
+    - builder_table_create_nielsvandendries_toolkit_facturen.php
+1.0.21:
+    - 'Drop table nielsvandendries_toolkit_facturen'
+    - builder_table_delete_nielsvandendries_toolkit_facturen.php
+1.0.22:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_17.php
+1.0.23:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_18.php
+1.0.24:
+    - 'Updated table nielsvandendries_toolkit_finance'
+    - builder_table_update_nielsvandendries_toolkit_finance_19.php
+1.0.25:
+    - 'Created table nielsvandendries_toolkit_filemanager'
+    - builder_table_create_nielsvandendries_toolkit_filemanager.php
+1.0.26:
+    - 'Updated table nielsvandendries_toolkit_filemanager'
+    - builder_table_update_nielsvandendries_toolkit_filemanager.php
+1.0.27:
+    - 'Updated table nielsvandendries_toolkit_filemanager'
+    - builder_table_update_nielsvandendries_toolkit_filemanager_2.php

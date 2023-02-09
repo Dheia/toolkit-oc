@@ -1,0 +1,82 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    description:
+        label: Omschrijving
+        type: text
+        searchable: true
+        sortable: true
+    withdraw:
+        label: Afschrijving
+        type: number
+        searchable: true
+        sortable: true
+    deposit:
+        label: Bijschrijving
+        type: number
+        searchable: true
+        sortable: true
+    created_at:
+        label: "aangemaakt op"
+        type: datetime
+        invisible: true
+    updated_at:
+        label: "laatste update"
+        type: datetime
+        invisible: true
+    bankaccount:
+        label: Bankrekening
+        type: text
+        searchable: true
+        sortable: true
+    invoicenr:
+        label: Factuurnummer
+        type: text
+        searchable: true
+        sortable: true
+    info:
+        label: Informatie
+        type: text
+        invisible: true
+    label:
+        label: label
+        type: text
+        invisible: true
+    ordernr:
+        label: Ordernummer
+        type: text
+        invisible: true
+    tax:
+        label: BTW
+        type: number
+        searchable: true
+        sortable: true
+    datum:
+        label: Datum
+        type: text
+        searchable: true
+        sortable: true
+    factuur:
+        label: Factuur
+        type: text
+        invisible: true
+    kwartaal:
+        label: Kwartaal
+        type: text
+        searchable: true
+        sortable: true
+    transfer:
+        label: "Betaling via"
+        type: text
+        searchable: true
+        sortable: true
+    paid:
+        label: "Betaling voldaan"
+        type: switch
+        options:
+            - Betaald
+            - Niet betaald
+        searchable: false
+        sortable: true
