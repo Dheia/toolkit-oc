@@ -1,6 +1,6 @@
 <?php return [
     'plugin' => [
         'name' => 'Toolkit',
-        'description' => 'NvandenDries Toolkit'
+        'description' => 'NielsVanDenDries Toolkit'
     ]
 ];

@@ -1,4 +1,4 @@
-<?php namespace Nielsvandendries\Toolkit;
+<?php namespace NielsVanDenDries\Toolkit;
 
 use System\Classes\PluginBase;
 
@@ -11,7 +11,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Nielsvandendries\Toolkit\Components\Files' => 'Files'
+            'NielsVanDenDries\Toolkit\Components\Files' => 'Files'
         ];
     }
 }

@@ -17,7 +17,7 @@ class FileManager extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'nielsvandendries_toolkit_filemanager';
+    public $table = 'NielsVanDenDries_toolkit_filemanager';
 
     /**
      * @var array Validation rules

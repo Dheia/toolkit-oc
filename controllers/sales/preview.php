@@ -1,6 +1,6 @@
 <?php Block::put('breadcrumb') ?>
     <ul>
-        <li><a href="<?= Backend::url('nielsvandendries/toolkit/sales') ?>">Sales</a></li>
+        <li><a href="<?= Backend::url('NielsVanDenDries/toolkit/sales') ?>">Sales</a></li>
         <li><?= e($this->pageTitle) ?></li>
     </ul>
 <?php Block::endPut() ?>
@@ -14,6 +14,6 @@
 <?php else: ?>
 
     <p class="flash-message static error"><?= e($this->fatalError) ?></p>
-    <p><a href="<?= Backend::url('nielsvandendries/toolkit/sales') ?>" class="btn btn-default"><?= e(trans('backend::lang.form.return_to_list')) ?></a></p>
+    <p><a href="<?= Backend::url('NielsVanDenDries/toolkit/sales') ?>" class="btn btn-default"><?= e(trans('backend::lang.form.return_to_list')) ?></a></p>
 
 <?php endif ?>

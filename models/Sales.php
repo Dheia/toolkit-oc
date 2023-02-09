@@ -1,4 +1,4 @@
-<?php namespace Nielsvandendries\Toolkit\Models;
+<?php namespace NielsVanDenDries\Toolkit\Models;
 
 use Model;
 
@@ -14,7 +14,7 @@ class Sales extends Model
     /**
      * @var string table name
      */
-    public $table = 'nielsvandendries_toolkit_sales';
+    public $table = 'NielsVanDenDries_toolkit_sales';
 
     /**
      * @var array rules for validation

@@ -1,6 +1,6 @@
 <div data-control="toolbar">
     <a
-        href="<?= Backend::url('nielsvandendries/toolkit/sales/create') ?>"
+        href="<?= Backend::url('NielsVanDenDries/toolkit/sales/create') ?>"
         class="btn btn-primary oc-icon-plus">
         <?= e(trans('backend::lang.list.create_button', ['name'=>'Sale'])) ?>
     </a>

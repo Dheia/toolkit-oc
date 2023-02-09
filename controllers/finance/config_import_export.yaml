@@ -2,7 +2,7 @@
 export:
   title: Export Finances
   modelClass: NielsVanDenDries\Toolkit\Models\Finance
-  list: $/nielsvandendries/toolkit/models/finance/columns.yaml
+  list: $/NielsVanDenDries/toolkit/models/finance/columns.yaml
 
 defaultFormatOptions:
   fileFormat: csv

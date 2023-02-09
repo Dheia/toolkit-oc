@@ -13,7 +13,7 @@ class Finance extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'nielsvandendries_toolkit_finance';
+    public $table = 'NielsVanDenDries_toolkit_finance';
 
     /**
      * @var array Validation rules

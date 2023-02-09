@@ -1,7 +1,7 @@
 title: FileManager
 modelClass: NielsVanDenDries\Toolkit\Models\FileManager
-list: $/nielsvandendries/toolkit/models/filemanager/columns.yaml
-recordUrl: 'nielsvandendries/toolkit/filemanager/update/:id'
+list: $/NielsVanDenDries/toolkit/models/filemanager/columns.yaml
+recordUrl: 'NielsVanDenDries/toolkit/filemanager/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 recordsPerPage: 20
 showSetup: true

@@ -1,7 +1,7 @@
-<?php namespace Nielsvandendries\Toolkit\Components;
+<?php namespace NielsVanDenDries\Toolkit\Components;
 
 use Cms\Classes\ComponentBase;
-use Nielsvandendries\Toolkit\Models\FileManager;
+use NielsVanDenDries\Toolkit\Models\FileManager;
 
 /**
  * Files Component

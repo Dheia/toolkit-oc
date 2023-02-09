@@ -1,6 +1,6 @@
 plugin:
-    name: 'nielsvandendries.toolkit::lang.plugin.name'
-    description: 'nielsvandendries.toolkit::lang.plugin.description'
+    name: 'NielsVanDenDries.toolkit::lang.plugin.name'
+    description: 'NielsVanDenDries.toolkit::lang.plugin.description'
     author: 'Niels van den Dries'
     icon: oc-icon-gears
     homepage: 'https://nvandendries.nl'
@@ -18,19 +18,19 @@ navigation:
         sideMenu:
             side-menu-item:
                 label: Finance
-                url: nielsvandendries/toolkit/finance
+                url: NielsVanDenDries/toolkit/finance
                 icon: icon-euro
                 permissions:
                     - beheerder
             side-menu-item2:
                 label: Accounts
-                url: nielsvandendries/toolkit/accounts
+                url: NielsVanDenDries/toolkit/accounts
                 icon: icon-bank
                 permissions:
                     - beheerder
             side-menu-item3:
                 label: 'File Manager'
-                url: nielsvandendries/toolkit/filemanager
+                url: NielsVanDenDries/toolkit/filemanager
                 icon: icon-files-o
                 permissions:
                     - beheerder

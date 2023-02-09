@@ -1,7 +1,7 @@
 title: Accounts
 modelClass: NielsVanDenDries\Toolkit\Models\Bankaccounts
-list: $/nielsvandendries/toolkit/models/bankaccounts/columns.yaml
-recordUrl: 'nielsvandendries/toolkit/accounts/update/:id'
+list: $/NielsVanDenDries/toolkit/models/bankaccounts/columns.yaml
+recordUrl: 'NielsVanDenDries/toolkit/accounts/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 recordsPerPage: 20
 showSetup: true

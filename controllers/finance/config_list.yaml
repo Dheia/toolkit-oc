@@ -1,7 +1,7 @@
 title: Finance
 modelClass: NielsVanDenDries\Toolkit\Models\Finance
-list: $/nielsvandendries/toolkit/models/finance/columns.yaml
-recordUrl: 'nielsvandendries/toolkit/finance/update/:id'
+list: $/NielsVanDenDries/toolkit/models/finance/columns.yaml
+recordUrl: 'NielsVanDenDries/toolkit/finance/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 recordsPerPage: 20
 showSetup: true

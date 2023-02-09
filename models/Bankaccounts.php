@@ -19,7 +19,7 @@ class Bankaccounts extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'nielsvandendries_toolkit_accounts';
+    public $table = 'NielsVanDenDries_toolkit_accounts';
 
     /**
      * @var array Validation rules

@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/nielsvandendries/toolkit/models/sale/columns.yaml
+list: $/NielsVanDenDries/toolkit/models/sale/columns.yaml
 
 # Model Class name
-modelClass: Nielsvandendries\Toolkit\Models\Sale
+modelClass: NielsVanDenDries\Toolkit\Models\Sale
 
 # List Title
 title: Manage Sales
 
 # Link URL for each record
-recordUrl: nielsvandendries/toolkit/sales/update/:id
+recordUrl: NielsVanDenDries/toolkit/sales/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records

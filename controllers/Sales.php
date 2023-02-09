@@ -1,4 +1,4 @@
-<?php namespace Nielsvandendries\Toolkit\Controllers;
+<?php namespace NielsVanDenDries\Toolkit\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
@@ -28,7 +28,7 @@ class Sales extends Controller
     /**
      * @var array required permissions
      */
-    public $requiredPermissions = ['nielsvandendries.toolkit.sales'];
+    public $requiredPermissions = ['NielsVanDenDries.toolkit.sales'];
 
     /**
      * __construct the controller
@@ -37,6 +37,6 @@ class Sales extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Nielsvandendries.Toolkit', 'toolkit', 'sales');
+        BackendMenu::setContext('NielsVanDenDries.Toolkit', 'toolkit', 'sales');
     }
 }

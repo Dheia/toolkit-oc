@@ -1,4 +1,4 @@
-<?php namespace Nielsvandendries\Toolkit\Updates;
+<?php namespace NielsVanDenDries\Toolkit\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;
@@ -16,7 +16,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('nielsvandendries_toolkit_sales', function(Blueprint $table) {
+        Schema::create('NielsVanDenDries_toolkit_sales', function(Blueprint $table) {
             $table->id();
             $table->timestamps();
         });
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('nielsvandendries_toolkit_sales');
+        Schema::dropIfExists('NielsVanDenDries_toolkit_sales');
     }
 };

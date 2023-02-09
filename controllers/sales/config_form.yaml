@@ -6,25 +6,25 @@
 name: Sale
 
 # Model Form Field configuration
-form: $/nielsvandendries/toolkit/models/sale/fields.yaml
+form: $/NielsVanDenDries/toolkit/models/sale/fields.yaml
 
 # Model Class name
-modelClass: Nielsvandendries\Toolkit\Models\Sale
+modelClass: NielsVanDenDries\Toolkit\Models\Sale
 
 # Default redirect location
-defaultRedirect: nielsvandendries/toolkit/sales
+defaultRedirect: NielsVanDenDries/toolkit/sales
 
 # Create page
 create:
     title: backend::lang.form.create_title
-    redirect: nielsvandendries/toolkit/sales/update/:id
-    redirectClose: nielsvandendries/toolkit/sales
+    redirect: NielsVanDenDries/toolkit/sales/update/:id
+    redirectClose: NielsVanDenDries/toolkit/sales
 
 # Update page
 update:
     title: backend::lang.form.update_title
-    redirect: nielsvandendries/toolkit/sales
-    redirectClose: nielsvandendries/toolkit/sales
+    redirect: NielsVanDenDries/toolkit/sales
+    redirectClose: NielsVanDenDries/toolkit/sales
 
 # Preview page
 preview:
